@@ -1,5 +1,6 @@
-bulk_update :package::
+bulk_update :package: [
   - "scripts/migrations/**"
+],
 data:api :rabbit2::
   - "api/**"
 data:browsers :earth_africa::
