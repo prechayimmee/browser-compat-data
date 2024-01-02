@@ -1,47 +1,36 @@
 bulk_update :package::
-  - "scripts/migrations/**"
+  - ["scripts/migrations/**"]
 data:api :rabbit2::
-  - "api/**"
+  - ["api/**"]
 data:browsers :earth_africa::
-  - "browsers/**"
+  - ["browsers/**"]
 data:css :art::
-  - "css/**"
+  - ["css/**"]
 data:html :page_facing_up::
-  - "html/**"
+  - ["html/**"]
 data:http :mountain_cableway::
-  - "http/**"
+  - ["http/**"]
 data:js :pager::
-  - "javascript/**"
+  - ["javascript/**"]
 data:mathml :heavy_division_sign::
-  - "mathml/**"
+  - ["mathml/**"]
 data:svg :paintbrush::
-  - "svg/**"
+  - ["svg/**"]
 data:wasm :mechanical_arm::
-  - "webassembly/**"
+  - ["webassembly/**"]
 data:webdriver :racing_car::
-  - "webdriver/**"
+  - ["webdriver/**"]
 data:webext :game_die::
-  - "webextensions/**"
+  - ["webextensions/**"]
 dependencies :chains::
-  - "package-lock.json"
-  - "package.json"
+  - ["package-lock.json", "package.json"]
 docs :writing_hand::
-  - "**/*.md"
+  - ["**/*.md"]
 infra :building_construction::
-  - ".*"
-  - "/*.js"
-  - "*.ts"
-  - "**/*.d.ts"
-  - "/index.js"
-  - "LICENSE"
-  - "package*"
-  - "utils/**"
-  - ".github/**"
-  - ".husky/**"
-  - ".vscode/**"
+  - [".*", "/*.js", "*.ts", "**/*.d.ts", "/index.js", "LICENSE", "package*", "utils/**", ".github/**", ".husky/**", ".vscode/**"]
 linter :house_with_garden::
-  - "test/**"
+  - ["test/**"]
 scripts :scroll::
-  - "scripts/**"
+  - ["scripts/**"]
 schema :gear::
-  - "schemas/**"
+  - ["schemas/**"]
