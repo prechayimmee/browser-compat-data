@@ -1,8 +1,8 @@
-bulk_update :package::
+bulk_update :package:: ["scripts/migrations/**"]
   - "scripts/migrations/**"
-data:api :rabbit2::
+data:api :rabbit2:: ["api/**"]
   - "api/**"
-data:browsers :earth_africa::
+data:browsers :earth_africa:: ["browsers/**"]
   - "browsers/**"
 data:css :art::
   - "css/**"
@@ -43,5 +43,5 @@ linter :house_with_garden::
   - "test/**"
 scripts :scroll::
   - "scripts/**"
-schema :gear::
+schema :gear:: ["schemas/**"]
   - "schemas/**"
