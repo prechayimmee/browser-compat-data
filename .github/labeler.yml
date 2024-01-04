@@ -27,7 +27,7 @@ dependencies :chains::
   - "package.json"
 docs :writing_hand::
   - "**/*.md"
-infra :building_construction::
+infra :building_construction:: - [".*"]
   - ".*"
   - "/*.js"
   - "*.ts"
